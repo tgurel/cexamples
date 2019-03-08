@@ -12,10 +12,10 @@ int main(){
 	scanf("%d",&b);
 	
 	if ( a>b ){
-			printf("a en buyuk");
-		}
-		else{
-			printf("b en buyuk");
-		}
-
+		printf("a en buyuk");
+	}
+	else{
+		printf("b en buyuk");
+	}
+	return 0;
 }
