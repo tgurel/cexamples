@@ -2,9 +2,9 @@
 #include <math.h>
 int main(){
   double r,h,hacim,alan,s,pi;
-	pi=3.14159;
+  pi=3.14159;
     
-	printf("Yaricapi giriniz :");
+  printf("Yaricapi giriniz :");
   scanf("%lf",&r);
   printf("Yukseklik giriniz :");
   scanf("%lf",&h);    
