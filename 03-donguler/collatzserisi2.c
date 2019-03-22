@@ -21,9 +21,10 @@ eleman sayisi = 17
 */
 #include<stdio.h>
 int main(){
-	int n,sayac=0;
+	int n,sayac=0,enbuyuk;
 	printf("Bir tam sayi giriniz : ");
 	scanf("%d",&n);
+	enbuyuk=n;
 	while(n>1){
 	   	printf("%d ",n);
 		if(n%2==0){
@@ -32,8 +33,12 @@ int main(){
 		else{
 			n=n*3+1;
 		}
+		if (n>enbuyuk){
+			enbuyuk=n;
+		}
 		sayac=sayac+1;
 	}
 	printf("\n\nSayi miktari : %d",sayac);
+	printf("\n\nEn buyuk sayi : %d",enbuyuk);
 	return 0;
 }

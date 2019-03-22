@@ -10,7 +10,7 @@ int main(){
 	
 	toplam=0;
 	sayac=0;
-	puan=1000;
+	puan=765765;
 	while(puan>=0){
 		printf("%d. Ogrenci puanini gir : ",sayac+1);
 		scanf("%d",&puan);

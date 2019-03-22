@@ -1,5 +1,5 @@
 /*
-klavyeden 10 tane ogrencinin notu giriliyor
+klavyeden girilen n tane ogrencinin notu giriliyor
 not ortalamasini bulun..
 */
 #include<stdio.h>
