@@ -3,7 +3,14 @@ Kullanýcýnýn girdiði bir x reel sayýsý ve
 n tam sayýsýna göre nx^n deðerini 
 "matematik kütüphanesi kullanmadan" 
 hesaplayýp ekrana yazan bir kod yazýnýz.
+
+nx^n=n(x*x*x*x...)
+
+n=5
+x=2.4
+5*(2.4*2.4*2.4*2.4*2.4)
 */
+
 #include<stdio.h>
 int main(){
 	int i,n;
