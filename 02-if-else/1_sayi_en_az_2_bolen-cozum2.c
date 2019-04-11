@@ -1,6 +1,6 @@
 /*
-Kullanýcýnýn girdiði bir 
-n tam sayýsýnin 2,3,5 den en az ikisine bolunup 
+KullanÄ±cÄ±nÄ±n girdiÄŸi bir 
+n tam sayÄ±sÄ±nin 2,3,5 den en az ikisine bolunup 
 bolunemedigini bulan program
 */
 #include<stdio.h>
@@ -10,16 +10,16 @@ int main(){
 	scanf("%d",&n);
 	
 	
-	if(n%5==0 && n%10==0){
+	if(n%2==0 && n%3==0){
 		bayrak=1;
 	}
 	
 
-	if(n%10==0 && n%20==0){
+	if(n%2==0 && n%5==0){
 		bayrak=1;
 	}	
 
-	if(n%5==0 && n%20==0){
+	if(n%3==0 && n%5==0){
 		bayrak=1;
 	}	
 	
