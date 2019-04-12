@@ -7,7 +7,7 @@ sayıların miktarının dört haneli sayıların miktarına oranını
 int main(){
 	int i,sayi,sayac2hane=0,sayac4hane=0;
 	double sonuc;
-	for(i=1;i<=10;i++){
+	for(i=1;i<=500;i++){
 		printf("Bir tam sayi giriniz :");
 		scanf("%d",&sayi);		
 		if(sayi>=10 && sayi<=99){
