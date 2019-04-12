@@ -1,5 +1,7 @@
 /*
-Kullanýcýnýn girdiði 3 tane tam sayýnýn ardýþýk olup olmadýðýný bulan bir C kodu yazýnýz. (Kullanýcýnýn sayýlarý küçükten büyüðe doðru girdiðini kabul ediniz.)
+Kullanýcýnýn girdiði 3 tane tam sayýnýn ardýþýk olup olmadýðýný 
+bulan bir C kodu yazýnýz. (Kullanýcýnýn sayýlarý küçükten 
+büyüðe doðru girdiðini kabul ediniz.)
 	
 
 	Örnek1                     Örnek2 
