@@ -1,5 +1,5 @@
 /*
-1 den n a kadar sayilarin carpimi
+n sayisina kadar olan fibonecci sayılarının ekrana yazdırılması
 */
 #include<stdio.h>
 int main(){
