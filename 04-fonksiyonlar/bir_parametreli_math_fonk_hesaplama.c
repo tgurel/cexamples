@@ -5,8 +5,9 @@ degeri girerek sonucunu gormek istiyor.
 #include<stdio.h>
 #include<math.h>
 
-double f(double x2){
-	return (sin(x2)*cos(x2)+sqrt(3*x2))/(8*x2-8);
+double f(double z){
+	double sonuc = (sin(z)*cos(z)+sqrt(3*z))/(8*z-8);
+	return sonuc;
 }
 
 int main(){
@@ -14,6 +15,6 @@ int main(){
 	printf("x degerini giriniz :");
 	scanf("%lf",&x);
 	y=f(x);
-	printf("Sonuc = %f",y);
+	printf("Sonuc = %f\n",y);
 	return 0;
 }

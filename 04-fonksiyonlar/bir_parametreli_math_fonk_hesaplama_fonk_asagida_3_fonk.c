@@ -20,13 +20,11 @@ int main(){
 		y=hesapla(x);
 		sonucYazdir(y);
 	}
-		
-	
 	return 0;
 }
 
 double hesapla(double x2){
-	return (sin(x2)*cos(x2)+sqrt(3*x2))/(8*x2-7);
+	return (sin(x2)*cos(x2)+sqrt(3*x2))/(8*x2-8);
 }
 double veriAl(){
 	double deger;

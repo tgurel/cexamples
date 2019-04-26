@@ -1,6 +1,6 @@
 /*
-kullanicinin girdigi bir tam sayinin asal olup 
-olmadigini fonksiyon icerisinde bulunuz...
+kullanicinin girdigi bir m tam sayisina kadar olan sayilarin
+asal olup olmadigini fonksiyon icerisinde bulunuz...
 */
 #include<stdio.h>
 #include<math.h>
@@ -10,21 +10,20 @@ int asalKontrol(int);
 
 
 int main(){
-	int a,sonuc;
-	printf("tam sayi degerini giriniz :");
-	scanf("%d",&a);
-	sonuc=asalKontrol(a);
-	if(sonuc==1){
-		printf("bu sayi asaldir");
-	}
-	else{
-		printf("bu sayi asal degildir");
+	int i,m,sonuc;
+	printf("m degerini giriniz :");
+	scanf("%d",&m);
+	
+	for(i=2;i<=m;i++){
+		if(asalKontrol(i)==1){
+			printf("%d asaldir\n",i);
+		}
+		else{
+			printf("%d asal degildir\n",i);
+		}
 	}
 	return 0;
 }
-
-
-
 
 // int degeri alir. bu deger asal ise 1 dondurur
 // asal degil ise 0 dondurur..
