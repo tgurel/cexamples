@@ -18,7 +18,6 @@ int asalSayiBul(int m){
 	int i,sayac=0,bolen=0,n=2;
 	while (sayac<m){
 		bolen=0;
-		
 		for(i=2;i<=n/2;i++){
 		
 			if (n%i==0){
@@ -27,8 +26,8 @@ int asalSayiBul(int m){
 			}
 		}
 		if (bolen==0){
-			printf("asal sayi=%d\n",n);
 			sayac++;
+			printf("% d. asal sayi=%d\n",sayac,n);
 		}
 		n++;
 	}
