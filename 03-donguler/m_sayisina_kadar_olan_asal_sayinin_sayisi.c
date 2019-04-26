@@ -19,7 +19,7 @@ int main(){
 		} // i dongusu biter
 		//printf("\nBolen sayisi : %d\n",bsayac);
 		if(bsayac==0){
-			//printf("%d sayisi asaldir\n", n);
+			printf("%d sayisi asaldir\n", n);
 			asayac++;
 		}
 		
