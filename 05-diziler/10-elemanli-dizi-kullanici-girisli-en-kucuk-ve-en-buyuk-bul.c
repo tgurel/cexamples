@@ -6,7 +6,7 @@ bir tam sayi dizisini ekrana yazdirma.
 #include<math.h>
 int main(){
 	int n;
-	printf("Toplanacak sayi adeti : ");
+	printf("Girilecek sayi adeti : ");
 	scanf("%d",&n);
 	
 	int a[n],i,enkucuk,enbuyuk;

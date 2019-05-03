@@ -6,23 +6,22 @@ bir tam sayi dizisini ekrana yazdirma.
 #include<math.h>
 int main(){
 	int n;
-	printf("Girilecek sayi adeti : ");
+	printf("Toplanacak sayi adeti : ");
 	scanf("%d",&n);
 	
-	int a[n],i,enbuyuk;
-
+	int a[n];
+	int i,toplam = 0;
+	double ortalama;
 	for (i=0;i<n;i++){
 		printf("Tam sayi gir : ");
 		scanf("%d",&a[i]);
 	}
-	
-	enbuyuk=a[0];
-	for (i=1;i<n;i++){
-		if(a[i]>enbuyuk){
-			enbuyuk=a[i];
-		}
+
+	for (i=0;i<n;i++){
+		toplam = toplam + a[i];
 	}
-	printf("En buyuk = %d\n",enbuyuk);
+	ortalama = 1.0*toplam/n;
+	printf("Ortalama = %.2f\n",ortalama);
 	
 	return 0;
 }

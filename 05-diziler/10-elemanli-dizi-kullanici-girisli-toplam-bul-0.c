@@ -5,24 +5,16 @@ bir tam sayi dizisini ekrana yazdirma.
 #include<stdio.h>
 #include<math.h>
 int main(){
-	int n;
-	printf("Toplanacak sayi adeti : ");
-	scanf("%d",&n);
-	
-	int a[n];
+	int a[10];
 	int i,toplam = 0;
-	double ortalama;
-	for (i=0;i<n;i++){
+	for (i=0;i<10;i++){
 		printf("Tam sayi gir : ");
 		scanf("%d",&a[i]);
 	}
-
-	for (i=0;i<n;i++){
+	for (i=0;i<10;i++){
 		toplam = toplam + a[i];
 	}
-	ortalama = 1.0*toplam/n;
-	printf("Ortalama = %0.3f\n",ortalama);
-	
+	printf("Toplam = %d\n",toplam);
 	return 0;
 }
 
