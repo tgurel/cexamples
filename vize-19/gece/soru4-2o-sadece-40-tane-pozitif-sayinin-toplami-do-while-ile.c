@@ -1,9 +1,9 @@
 /*
-Kullanıcıdan pozitif ya da negatif tam sayılar girmesi isteniyor. 
-Yazacağınız C kodunda bu sayılar toplanacak ancak toplama "negatif" 
-sayılar dahil edilmeyecektir. Toplaması yapılan pozitif sayıların 
-miktarı 40 olunca kullanıcıdan sayı alma işlemi durdurulacak ve 
-toplam ekrana yazdırılacaktır (Bu kodda "while" ya da "do-while" kullanılacaktır).
+KullanÄ±cÄ±dan pozitif ya da negatif tam sayÄ±lar girmesi isteniyor. 
+YazacaÄŸÄ±nÄ±z C kodunda bu sayÄ±lar toplanacak ancak toplama "negatif" 
+sayÄ±lar dahil edilmeyecektir. ToplamasÄ± yapÄ±lan pozitif sayÄ±larÄ±n 
+miktarÄ± 40 olunca kullanÄ±cÄ±dan sayÄ± alma iÅŸlemi durdurulacak ve 
+toplam ekrana yazdÄ±rÄ±lacaktÄ±r (Bu kodda "while" ya da "do-while" kullanÄ±lacaktÄ±r).
 */
 #include<stdio.h>
 int main(){
@@ -16,7 +16,7 @@ int main(){
 			toplam = toplam + sayi;
 			sayac = sayac + 1;
 		}
-	}while(sayac<4);
+	}while(sayac<40);
 	printf("Toplam = %d", toplam);
 	return 0;
 }
