@@ -1,6 +1,6 @@
 /*
 1 1 2 3 5 8 13 21 34 55 ...
-serisini hesaplayin
+serisini n'inci değere kadar hesaplayın ve serini ardışık elemanları arasındaki oranı bulunuz.
 */
 #include<stdio.h>
 int main(){
