@@ -1,6 +1,6 @@
 /*
 Degerleri kodun basinda girilen 10 elemanli 
-bir tam sayi dizisini ekrana yazdirma.
+dizi içindeki negatif sayilarin sayisi..
 */
 #include<stdio.h>
 #include<math.h>
